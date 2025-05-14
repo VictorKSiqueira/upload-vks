@@ -29,4 +29,46 @@ body {
 input[type="file"] {
   background: #2C2C2C;
   color: #FFFFFF;
-  borde
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  background: #00C853;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #00E676;
+}
+
+#status {
+  margin-top: 15px;
+  font-size: 0.9em;
+  color: #B0BEC5;
+}
+
+#links {
+  margin-top: 20px;
+  text-align: left;
+  word-break: break-word;
+  font-size: 0.85em;
+}
+
+#links a {
+  color: #80D8FF;
+  text-decoration: none;
+}
+
+#links a:hover {
+  text-decoration: underline;
+}
